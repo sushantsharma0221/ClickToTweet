@@ -20,7 +20,7 @@ const updateLimit = () => {
       btn.style.background = "rgb(60, 162, 226)";
     }
   });
-};
+}
 updateLimit();
 
 btn.addEventListener("click", (e) => {
