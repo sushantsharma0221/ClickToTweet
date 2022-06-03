@@ -16,6 +16,8 @@ const updateLimit = () => {
     } else {
       btn.disabled = false;
       limit.style.color = "black";
+      btn.innerText = "Tweet";
+      btn.style.background = "rgb(60, 162, 226)";
     }
   });
 };
